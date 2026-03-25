@@ -1,0 +1,8 @@
+- [Introdução](docs/README.md)
+- [Strategy](docs/strategy.md)
+- [Observer](docs/observer.md)
+- [Iterator](docs/iterator.md)
+- [Command](docs/command.md)
+- [State](docs/state.md)
+- [Template Method](docs/template_method.md)
+- [Chain of Responsibility](docs/chain_of_responsibility.md)

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Padrões Comportamentais - Wiki</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Documentação dos Padrões Comportamentais">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Padrões Comportamentais',
+      repo: 'https://github.com/evandroconceicao0723/padroes-comportamentais',
+      loadSidebar: 'docs/_sidebar.md',
+      homepage: 'docs/README.md',
+      subMaxLevel: 2,
+      basePath: location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? '' : '/padroes-comportamentais/'
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+</body>
+</html>
